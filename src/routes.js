@@ -10,7 +10,7 @@ routes.get('/', async (req, res) => {
     email: 'flamego@gmial.com',
     password_hash: 'asdasd134',
   });
-  await res.json(user);
+  res.json(user);
 });
 
 export default routes;
